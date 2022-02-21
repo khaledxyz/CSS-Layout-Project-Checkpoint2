@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.navbar {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+h1 {
+  color: #00b39b;
+  font-family: "Work Sans", Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #747474;
+  line-height: 1.7;
+}
+
+.footer {
+  border-top: 1px #d7f6f6 solid;
+  text-align: center;
+  font-size: x-small;
+}
+
+.offices {
+  max-width: 350px;
+  text-align: center;
+}
+.offices h1 {
+  font-size: 15px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px 0PX;
+}
+.navbar .nav-links {
+  display: flex;
+}
+.navbar .nav-links * {
+  padding: 0 5px;
+  color: #00B39B;
+}
+
+.card {
+  background-color: white;
+  padding: 15px;
+}
+
+.stats {
+  background-color: #D8F6F6;
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=index.css.map */

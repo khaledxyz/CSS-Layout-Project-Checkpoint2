@@ -1,0 +1,33 @@
+// fonts
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); // Roboto 400
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap'); // Work Sans 300
+
+.navbar{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+h1{
+    color: #00b39b;
+    font-family: 'Work Sans', Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #747474;
+    line-height: 1.7;
+}
+
+.footer{
+    border-top: 1px #d7f6f6 solid;
+    text-align: center;
+    font-size: x-small;
+}
+
+.offices{
+    max-width: 350px;
+    text-align: center;
+    h1{font-size: 15px;}
+}
