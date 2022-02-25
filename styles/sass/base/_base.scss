@@ -7,6 +7,18 @@
     max-width: 800px; // to contain the contect
     margin: auto; // to center it
 }
+section{
+    margin-bottom: 100px;
+}
+select{
+    background-color: transparent;
+    border: none;
+    color: white;
+    text-decoration: underline;
+}
+option{
+    color: black;
+}
 // Resets
 li{
     list-style: none;

@@ -11,6 +11,21 @@
   margin: auto;
 }
 
+section {
+  margin-bottom: 100px;
+}
+
+select {
+  background-color: transparent;
+  border: none;
+  color: white;
+  text-decoration: underline;
+}
+
+option {
+  color: black;
+}
+
 li {
   list-style: none;
 }
@@ -138,7 +153,46 @@ p {
 .stats {
   background-color: #D8F6F6;
   display: flex;
+  justify-content: space-around;
+  padding: 0px 350px;
+}
+.stats h1 {
+  font-size: 2em;
+  margin-top: 50px;
+}
+.stats p {
+  font-size: 0.8em;
+}
+.stats .stats-right .stats-cards {
+  display: flex;
+}
+.stats .stats-right .stats-cards .column-left {
+  margin-top: 35px;
+}
+.stats .stats-right .stats-cards .stat {
+  height: 250px;
+  width: 230px;
+  padding: 15px;
+  margin: 15px;
+  background: white;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
+  text-align: center;
+}
+.stats .stats-right .stats-cards .stat .stat-title {
+  font-weight: 100;
+  color: #00b39b;
+  margin: 0.5em;
+  font-size: 1.4rem;
+}
+.stats .stats-right .stats-cards .stat .stat-description {
+  font-weight: 100;
+  color: #747474;
+  font-size: 0.81rem;
 }
 
 .offices {
@@ -158,6 +212,9 @@ p {
   margin-bottom: 20px;
 }
 
+.services {
+  margin-bottom: 100px;
+}
 .services .services-details {
   display: flex;
   gap: 10px;
@@ -170,10 +227,10 @@ p {
   text-align: left;
 }
 .services .services-cards img {
-  width: 20px;
+  width: 15px;
 }
 .services .services-cards .service {
-  padding: 1.5em 1.5em 0;
+  padding: 1.5em;
   border-radius: 10px;
 }
 .services .services-cards .service * {
@@ -182,7 +239,6 @@ p {
 .services .services-cards .service a {
   color: white;
   text-decoration: underline;
-  margin-bottom: 20px;
 }
 .services .services-cards .service h2 {
   margin-bottom: 60px;

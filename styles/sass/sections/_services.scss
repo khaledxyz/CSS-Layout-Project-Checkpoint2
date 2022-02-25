@@ -5,7 +5,7 @@
         font-size: 12px;
         text-align: left;
     }
-    
+    margin-bottom: 100px;
     .services-cards{
         display: flex;
         gap: 15px;
@@ -14,7 +14,7 @@
         img{width: 15px;}
         .service{
             & *{margin-bottom: 5px;}
-            a{color: white; text-decoration: underline; margin-bottom:;}
+            a{color: white; text-decoration: underline;}
             h2{margin-bottom: 60px;}
             padding: 1.5em;
             border-radius: 10px;
